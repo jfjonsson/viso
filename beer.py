@@ -43,7 +43,7 @@ while True:
                 print('Success!')
                 sys.exit()
             else:
-                print('Shit!')
+                print('...')
     else:
-        print('T minus: ', leet - datetime.datetime.now())
+        print('Starting in: ', leet - datetime.datetime.now())
 
